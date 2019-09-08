@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body,html {
+    height:100%;
+}
+
+body {
+    display:flex;
+    border-style:solid;
+    border-color:black;
+    border-width: 5px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.container-one {
+    display:flex;
+    position: relative;
+    border-style:solid;
+    border-color:black;
+    width:40%;
+    height:50%;
+    top:15%;
+    left:10%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    padding:2%;
+}
+
+.container-two {
+    display:flex;
+    position: relative;
+    border-style:solid;
+    border-color:black;
+    width:30%;
+    height:35%;
+    left:60%;
+    bottom:40%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    padding:2%;
+}
+
+.container-three {
+    display:flex;
+    position: relative;
+    border-style:solid;
+    border-color:black;
+    width:30%;
+    height:34%;
+    left:60%;
+    bottom:25%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+}
+
+h2 {
+    display:block;
+    border-bottom:5px solid black;
+    text-align: center;
+}
+
+p {
+    display:block;
+    margin:8px;
+}
+
+input {
+    width:115.19px;
+    margin-bottom:2%;
+}
+
+
+form.customerCharges {
+    margin-top:0%;
+}
+
+button {
+    width:115.19px;
+}
+
+button input {
+    float:center;
+}
+
+h1 {
+    text-align: center;
+}
+
+
